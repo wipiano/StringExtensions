@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Wipiano.StringExtensions</PackageId>
+    <PackageVersion>1.0.0-beta</PackageVersion>
+    <Authors>wipiano</Authors>
+    <Description>System.String extensions</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>first release</PackageReleaseNotes>
+    <Copyright>Copyright 2017 (c) wipiano. All rights reserved.</Copyright>
+    <PackageTags>
+    </PackageTags>
+    <PackageProjectUrl>https://github.com/wipiano/StringExtensions</PackageProjectUrl>
+  </PropertyGroup>
+</Project>
