@@ -21,9 +21,6 @@ namespace StringExtensions.Tests
             Assert.Throws<ArgumentNullException>(() => (null as string).ToInt());
             Assert.Throws<FormatException>(() => "hoge".ToInt());
             Assert.Throws<OverflowException>(() => "12345".ToByte());
-            
-            // failed to parse
-            
         }
     }
 }
