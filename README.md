@@ -1,6 +1,16 @@
 # StringExtensions
 Extension methods for string
 
+```sh
+PM> Install-Package EnumerableSplitHelper -Version 1.0.2
+```
+```
+> dotnet add package EnumerableSplitHelper --version 1.0.2
+```
+```
+> paket add EnumerableSplitHelper --version 1.0.2
+```
+
 ## `IsEmpty` methods
 
 * `IsNullOrEmpty()`
