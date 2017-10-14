@@ -16,6 +16,9 @@ namespace StringExtensions.Tests
             "123456".ToUnsignedInt().Is(123456u);
             "-123456".ToLong().Is(-123456L);
             "123456".ToUnsignedLong().Is(123456uL);
+            "123.456".ToFloat().Is(123.456f);
+            "123.4567890".ToDouble().Is(123.456789);
+            "1948385.48484848".ToDecimal().Is(1948385.48484848m);
             
             // failed to parse
             Assert.Throws<ArgumentNullException>(() => (null as string).ToInt());
